@@ -22,7 +22,7 @@ public class MailController {
     }*/
 
     @Autowired // look for (inject) an instance of this class 'somewhere' (
-    public MailController( @Qualifier("smtp") final MailSender mailSender) {
+    public MailController( /*@Qualifier("smtp")*/ final MailSender mailSender) {
         this.mailSender = mailSender;
     }
 

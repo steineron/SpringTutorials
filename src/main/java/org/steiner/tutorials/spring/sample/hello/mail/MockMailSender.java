@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
  * Created by rosteiner on 4/15/15.
  */
 
-@Component // create an instance and keep it 'somewhere' (a bean in the application context)
+// @Component // create an instance and keep it 'somewhere' (a bean in the application context)
 public class MockMailSender implements MailSender {
 
     private static final Log log = LogFactory.getLog(MockMailSender.class);
